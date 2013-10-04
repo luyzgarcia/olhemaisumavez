@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+        <layout title="Tela de cadastro de usuários">
+                <message>
+                        <![CDATA[Tela de cadastro de novos usuários]]>
+                </message>
+        </layout>
+</metadata>

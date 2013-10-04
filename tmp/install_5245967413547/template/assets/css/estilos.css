@@ -1,0 +1,83 @@
+@font-face {
+	font-family: aller_regular;
+	src: url('../fonts/Aller_RG.ttf');
+}
+body {
+	height: 100%;
+	padding: 0px;
+}
+#corpo {
+	min-height: 100%;
+}
+
+.header {
+	background: #4aa0dc;
+	width: 100%;
+	height: 15px;
+	border-bottom: 1px solid #397aa5;
+}
+.menu_superior {
+	border-bottom: 1px solid #f1f2f2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+}
+.menu, .logo {
+	display: inline-block;
+}
+.menu ul {
+	list-style-type: none;
+	
+}
+.menu ul li {
+	display: inline;
+	padding: 5px 20px;
+	background: #f1f2f2;
+	border-radius: 40;
+}
+.menu .active, .menu .active a, .menu .active a:hover {
+	background-color: #4aa0dc;
+	color: #FFF;
+}
+.menu ul li a, .menu ul li a:hover {
+	text-transform: uppercase;
+	font: normal 14px 'aller_regular', Tahoma;
+	color: #5a5a5a;
+}
+.rodape_fundo {
+	background: #748eaa;
+	padding: 40px 0px 10px 0px;
+}
+.rodape {
+	position: relative;
+}
+.rodape h2 {
+	margin: 0px;
+	font: normal 16px 'aller_regular', Tahoma;
+	color: #FFF;
+}
+
+.rodape ul {
+	list-style-type: none;
+}
+.rodape ul li, .rodape ul li a{
+	font: normal 15px 'aller_regular', Tahoma;
+	color: #fff;
+	margin: 5px 0px;
+}
+
+.rodape .subitem {
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #000;
+}
+.proiz {
+	font: normal 11px 'aller_regular', Tahoma;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+}
+.proiz a, proiz a:hover {
+	font: normal 11px 'aller_regular', Tahoma;
+	color: #fff;
+	text-decoration: none;
+}

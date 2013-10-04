@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="1.6.0" method="install">
+
+	<name>Loja!</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>Set 2013</creationDate>
+	<author>Luiz Garcia</author>
+	<authorEmail>luiz@proiz.com.br</authorEmail>
+	<authorUrl>http://www.proiz.com.br</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.0.1</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Componente para gerenciamento das vendas do site olhe mais uma vez.</description>
+	<!--
+	<install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+	<update>
+		<sql>
+			<schemapath type="mysql">sql/updates/mysql/0.0.18.sql</schemapath>
+		</sql>
+	</update>-->
+
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+		to copy FROM in the package to install therefore files copied
+		in this section are copied from /site/ in the package -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>loja.php</filename>
+		<filename>controller.php</filename>
+        <folder>views</folder>
+		<folder>models</folder>
+		<folder>assets</folder>
+	</files>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>Loja - Olhe mais uma vez!</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>loja.php</filename>
+			<!-- SQL files section
+			<folder>sql</folder>-->
+		</files>
+	</administration>
+
+</extension>
+

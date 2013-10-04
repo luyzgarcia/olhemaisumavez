@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+        <layout title="Painel de controle do usuário">
+                <message>
+                        <![CDATA[Tela onde o usuário terá acesso a seus pedidos, alterar suas informações.]]>
+                </message>
+        </layout>
+</metadata>

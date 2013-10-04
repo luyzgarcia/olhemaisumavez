@@ -1,0 +1,319 @@
+.livros h2 {
+	font: normal 38px 'alter_bold', Tahoma;
+	color: #838383;
+	display: inline-block;
+}
+.livros img {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.livros hr, .livro hr {
+	margin-top: 0px;
+	border-top: 1px solid #3981a6;
+}
+
+/*Livros*/
+.livro_fundo1 {
+	background-color: #FFF;
+}
+.livro_fundo0 {
+	background-color: #f1f5f8;
+}
+
+.livro {
+	padding: 40px 0px;
+}
+.livro img {
+	width: 270px;
+}
+.livro h2 {
+	font: normal 20px 'aller_regular', Tahoma;
+	color: #838383;
+}
+.ficha_livro {
+	
+}
+.livro hr {
+	margin-bottom: 0px;
+}
+.livro h3, .livro h4 {
+	margin: 0px;
+	margin-top: 5px;
+	display: inline-block;
+}
+.livro h3 {
+	font: normal 15px 'aller_regular', Tahoma;
+	color: #838383;
+}
+.livro h4 {
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #838383;
+	margin-left: 5px;
+}
+
+.descricao p {
+	margin-left: 5px;
+}
+.descricao h1 {
+	font: normal 32px 'aller_regular', Tahoma;
+}
+.descricao h4 {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.descricao p {
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #838383;
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.preco_livro {
+	bottom: 0px;
+	position: absolute;
+}
+.preco_livro p {
+	font: normal 24px 'aller_lt', Tahoma;
+	color: #838383;
+	text-align: center;
+}
+
+/*Fim do livros*/
+
+
+/*TELA DE CARRINHO*/
+.linha_azul {
+	border-top: 1px solid #daebf6;
+}
+.carrinho_livros {
+	margin-bottom: 50px;
+}
+.carrinho_livros .cabecalho {
+	font:  normal 11px 'aller_regular', Tahoma;
+	color: #58595b;
+	text-transform: uppercase;
+}
+.carrinho h1 {
+	font: normal 48px 'aller_bold', Tahoma;
+	color: #4aa0dc;
+	display: inline-table;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+.carrinho h3 {
+	font: normal 20px 'aller_bold', Tahoma;
+	color: #4aa0dc;
+	display: inline-table;
+	margin-left: 10px;
+	margin-top: -7px;
+}
+/*Efeito para o tamanho das divs ficarem iguais no carrinho*/
+.col-wrap{
+    overflow: hidden;
+    border-bottom: 1px solid #737373;
+}
+.col{ 
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    font-family: 'aller_regular';
+    color: #58595b;
+}
+/*Fim do efeito*/
+.img_desc img {
+	float: left;
+	width: 125px;
+	height: 125px;
+	margin-bottom: 10px;
+}
+.carrinho_fundo {
+	background-color: #f5f5f5;
+}
+.carrinho_desc {
+	display: table;
+	padding: 0px 15px;
+	font-size: 16px;
+}
+.preco_item {
+	font-size: 12px;
+}
+.carrinho_texto {
+	text-align: center;
+	margin-top: 25%;
+}
+.carrinho_texto form {
+	display: inline;
+}
+.carrinho_texto input[type='submit'] {
+	border: none;
+	margin-right: 5px;
+	background-color: #4aa0dc;
+	color: #fff;
+}
+.removeritem {
+	text-align: center;
+}
+.removeritem input[type='submit'] {
+	border: none;
+	margin-top: 10px;
+	background-color: #4aa0dc;
+	color: #fff;
+	
+}
+.carrinho_texto h4{
+	display: inline-block;
+	background: #fff;
+	border: 1px solid;
+	padding: 0px 6px 5px 8px;
+	margin: 0px;
+	line-height: 20px;
+}
+.carrinho_livros h3 {
+	text-align: center;
+	font: normal 20px 'aller_bold', Tahoma;
+}
+.frete_wrapper {
+	margin-bottom: -20px;
+}
+.frete_wrapper input[type='text'] {
+	border-radius: 0px;
+	margin: 0px 5px;
+}
+.frete_wrapper input[type='submit'], .bt_padrao {
+	text-transform: uppercase;
+	border-radius: 35px;
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #fff;
+	border: none;
+	-moz-box-shadow: 1px 2px 5px #d1d2d2;
+	-webkit-box-shadow: 1px 2px 5px #d1d2d2;
+	box-shadow: 1px 2px 5px #d1d2d2;
+	padding: 10px 22px;
+	margin-top: 1px;
+	background-color:#5a6f86;	
+	background-image: linear-gradient(to bottom, rgba(120,146,175,1),rgba(90,111,134,1));
+	background-image: -moz-linear-gradient(top, rgba(120,146,175,1),rgba(90,111,134,1));	
+	background-image: -webkit-linear-gradient(top, rgba(120,146,175,1),rgba(90,111,134,1));	
+	display: inline-table;
+	margin-left: 20px;
+}
+.bt_padrao:hover {
+	text-decoration: none;
+	color: #fff;
+}
+#cep {
+	width: 65px;
+}
+#cep2 {
+	width: 30px;
+}
+
+.frete_wrapper h3 ,.frete_wrapper h4 {
+	font-family: 'aller_regular';
+	text-transform: uppercase;
+	text-align: center;
+}
+.frete_wrapper h3 {
+	font-size: 13px;
+	color: #58595b;
+}
+.frete_wrapper h4 {
+	font-size: 18px;
+	color: #58595b;
+}
+
+.carrinho_total {
+	background: #f1f4f7;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.carrinho_total h3 {
+	font-family: 'aller_regular';
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #58595b;
+	line-height: 21px;
+}
+.carrinho_total h2 {
+	font-family: 'aller_regular';
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #58595b;
+	line-height: 25px;
+}
+.enderecoentrega h2{
+	font: normal 21px/24px 'aller_regular', tahoma;
+	color: #5a5a5a;
+}
+.enderecoentrega h3{
+	font: normal 17px/24px 'aller_regular', tahoma;
+	color: #5a5a5a;
+	margin-left: 50px;
+}
+.enderecoentrega h4{
+	font: normal 13px/24px 'aller_regular', tahoma;
+	color: #5a5a5a;
+}
+.bt_carrinho {
+	text-align: right;
+}
+.confirma_pedido_total h4{
+	font: normal 13px/24px 'aller_regular', Tahoma;
+	text-transform: uppercase;
+	text-align: center;
+	color: #58595b;
+}
+.confirma_pedido_total h3{
+	font: normal 18px/24px 'aller_regular', Tahoma;
+	text-transform: uppercase;
+	text-align: center;
+	color: #58595b;
+	display: block;
+}
+.confirma_pedido_total input[type='radio'] {
+	margin: 0px 6px 5px 6px;
+}
+.confirmacaopedido h2{
+	font: normal 18px/24px 'aller_regular', Tahoma;
+	text-transform: uppercase;
+	text-align: left;
+	color: #58595b;
+	display: block;
+}
+.confirmacaopedido h3{
+	font: normal 14px/24px 'aller_regular', Tahoma;
+	text-transform: uppercase;
+	text-align: left;
+	color: #58595b;
+	display: block;
+}
+/*FIM DA TELA DE CARRINHO*/
+
+/*Painel de controle*/
+.painel .menu_painel ul {
+	list-style: none;
+	background: #438dbe;
+	padding-bottom: 150px;
+}
+.painel .menu_painel ul li{ 
+	padding: 30px 10px 8px 15px;
+	background: #4aa0dc;
+	border-bottom: 1px solid #ffffff;
+}
+.painel .menu_painel ul li a{ 
+	font: normal 12px 'aller_regular', tahoma;
+	color: #fff;
+	text-transform: uppercase;
+}
+.painel .painel_principal h2{
+	font: normal 21px/24px 'aller_regular', tahoma;
+	color: #5a5a5a;
+}
+.painel .painel_principal h3{
+	font: normal 17px/24px 'aller_regular', tahoma;
+	color: #5a5a5a;
+}
+.bt_alterar {
+	text-align: right;
+}
+/*Fim Painel de controle*/

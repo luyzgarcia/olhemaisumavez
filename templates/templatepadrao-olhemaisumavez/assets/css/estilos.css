@@ -1,0 +1,223 @@
+@font-face {
+	font-family: aller_regular;
+	src: url('../fonts/Aller_RG.ttf');
+}
+@font-face {
+	font-family: aller_bold;
+	src: url('../fonts/Aller_BD.ttf');
+}
+@font-face {
+	font-family: aller_lt;
+	src: url('../fonts/Aller_LT.ttf');
+}
+body {
+	height: 100%;
+	padding: 0px;
+}
+#corpo {
+	min-height: 100%;
+	margin-bottom: 150px;
+}
+
+.header {
+	background: #4aa0dc;
+	width: 100%;
+	height: 15px;
+	border-bottom: 1px solid #397aa5;
+}
+.menu_superior {
+	border-bottom: 1px solid #f1f2f2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+}
+.menu, .logo {
+	display: inline-block;
+}
+.menu ul {
+	list-style-type: none;
+	
+}
+.menu ul li {
+	display: inline-table;
+	padding: 5px 20px;
+	background: #f1f2f2;
+	border-radius: 40px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.menu .active, .menu .active a, .menu .active a:hover {
+	background-color: #4aa0dc;
+	color: #FFF;
+}
+.menu ul li a, .menu ul li a:hover {
+	text-transform: uppercase;
+	font: normal 14px 'aller_regular', Tahoma;
+	color: #5a5a5a;
+	display: inline;
+}
+.rodape_fundo {
+	background: #748eaa;
+	padding: 40px 0px 10px 0px;
+	/*position: fixed;*/
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+.rodape {
+	position: relative;
+}
+.rodape h2 {
+	margin: 0px;
+	font: normal 16px 'aller_regular', Tahoma;
+	color: #FFF;
+}
+
+.rodape ul {
+	list-style-type: none;
+}
+.rodape ul li, .rodape ul li a{
+	font: normal 15px 'aller_regular', Tahoma;
+	color: #fff;
+	margin: 5px 0px;
+}
+
+.rodape .subitem {
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #000;
+}
+.proiz {
+	font: normal 11px 'aller_regular', Tahoma;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+}
+.proiz a, proiz a:hover {
+	font: normal 11px 'aller_regular', Tahoma;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*TELA DE LOGIN*/
+.login img {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.login h2 {
+	font: normal 38px 'alter_bold', Tahoma;
+	color: #838383;
+	display: inline-block;
+}
+.login h1 {
+	font: normal 48px 'aller_bold', Tahoma;
+	color: #4aa0dc;
+	display: inline-table;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+.login h3 {
+	font: normal 20px 'aller_bold', Tahoma;
+	color: #4aa0dc;
+	display: inline-table;
+	margin-left: 10px;
+	margin-top: -7px;
+}
+.login hr {
+	margin-top: 0px;
+	border-top: 1px solid #3981a6;
+}
+.login .divlogin2 {
+	background-color: #4aa0dc;
+	padding: 50px 0px;
+}
+.login h4{
+	font: normal 21px 'aller_regular', Tahoma;
+	color: #5a5a5a;
+	margin-bottom: 25px;
+}
+.login .control-label, .login .control-label label {
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 15px;
+	font: normal 13px "aller_regular", Tahoma;
+	color: #5a5a5a;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+.btlogin {
+	padding-left: 50px;
+}
+.login .btlogin a {
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #5a5a5a;
+}
+.login .control-group input {
+	border: 1px solid #c9cacc;
+	border-radius: 30px;
+	padding: 5px 10px 5px 15px;
+	background-color: #ccc;
+	background-image: linear-gradient(to bottom, rgba(204,204,204,1),rgba(235,234,234,1));
+	background-image: -moz-linear-gradient(top, rgba(204,204,204,1),rgba(235,234,234,1));
+	background-image: -webkit-linear-gradient(top, rgba(204,204,204,1),rgba(235,234,234,1));
+	color: #5a5a5a;
+}
+.login .divlogin2 {
+	color: #fff;
+	text-align: center;
+}
+.login .divlogin2 h2 {
+	font: normal 25px "aller_bold", Tahoma;
+	color: #fff;
+}
+.login .divlogin2 h3 {
+	font: normal 18px "aller_bold", Tahoma;
+	color: #fff;
+	margin: 15px 0px;
+	padding: 5px 100px;
+}
+
+.login .divlogin2 p {
+	font: normal 15px/25px "aller_regular", Tahoma;
+	color: #fff;
+	margin: 15px 0px;
+	padding: 5px 80px;
+}
+.login .divlogin2 a {
+	text-transform: uppercase;
+	border-radius: 35px;
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #5a5a5a;
+	border: none;
+	-moz-box-shadow: 1px 2px 5px #3d83b5;
+	-webkit-box-shadow: 1px 2px 5px #3d83b5;
+	box-shadow: 1px 2px 5px #3d83b5;
+	padding: 10px 22px;
+	margin-top: 1px;
+	background-color: #fbfbfb;
+	background-image: linear-gradient(to bottom, rgba(251,251,251,1),rgba(217,217,217,1));
+	background-image: -moz-linear-gradient(top, rgba(251,251,251,1),rgba(217,217,217,1));
+	background-image: -webkit-linear-gradient(top, rgba(251,251,251,1),rgba(217,217,217,1));
+	display: inline-table;
+	margin-left: 20px;
+}
+.bt_padrao {
+	text-transform: uppercase;
+	border-radius: 35px;
+	font: normal 13px 'aller_regular', Tahoma;
+	color: #fff;
+	border: none;
+	-moz-box-shadow: 1px 2px 5px #d1d2d2;
+	-webkit-box-shadow: 1px 2px 5px #d1d2d2;
+	box-shadow: 1px 2px 5px #d1d2d2;
+	padding: 10px 22px;
+	margin-top: 1px;
+	background-color: #5a6f86;
+	background-image: linear-gradient(to bottom, rgba(120,146,175,1),rgba(90,111,134,1));
+	background-image: -moz-linear-gradient(top, rgba(120,146,175,1),rgba(90,111,134,1));
+	background-image: -webkit-linear-gradient(top, rgba(120,146,175,1),rgba(90,111,134,1));
+	display: inline-table;
+	margin-left: 20px;
+}
+/*FIM DA TELA DE LOGIN*/

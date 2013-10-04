@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" client="site" method="upgrade">
+	
+	<name>Template Padrao - Olhe mais uma vez</name><!-- name the template -->
+	<creationDate>2013-09-27</creationDate><!-- the date your are beginn to code -->
+	<author>PROIZ</author><!-- your name (oops, I repeat myself) -->
+	<copyright>Copyright © proiz.com</copyright><!-- for who you are coding -->
+	<authorEmail>luiz@proiz.com.br</authorEmail><!-- your email address -->
+	<authorUrl>http://www.proiz.com.br</authorUrl><!-- your url -->
+	<version>1.0.0</version><!-- give your template a number -->
+	<description><![CDATA[
+		Template padrão utilizado no site Olhe mais uma vez.
+	]]></description><!-- change the description as you like -->
+	
+    <files><!-- no need to change -->
+		<!--<folder>css</folder>
+         <folder>fonts</folder>
+         <folder>html</folder>
+         <folder>images</folder>
+         <folder>js</folder>
+         <folder>less</folder>
+         <folder>sass</folder>-->
+		<folder>assets</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language"><!-- no need to change -->
+		<language tag="de-DE">de-DE.tpl_frontend.ini</language>
+		<language tag="en-GB">en-GB.tpl_frontend.ini</language>
+		<language tag="ca-CA">ca-CA.tpl_frontend.ini</language>
+		<language tag="es-ES">es-ES.tpl_frontend.ini</language>
+	</languages>
+	
+	<positions><!-- define the positions for modules here -->
+        <position>menu_superior</position>
+		<position>newsletter</position>
+		<position>menu_inferior1</position>
+		<position>menu_inferior2</position>
+		<position>redes_sociais</position>
+		<position>finalizar_pedido</position>
+		<position>debug</position>
+	</positions>
+	
+	<config><!-- no need to change -->
+		
+	</config>
+	
+</extension>
