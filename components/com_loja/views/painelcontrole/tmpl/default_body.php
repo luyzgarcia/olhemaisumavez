@@ -11,6 +11,24 @@ defined('_JEXEC') or die('Acesso restrito');
 		<div class="span8 painel_principal">
 			<h2>Olá, <?php echo $this->user->name; ?>!</h2>
 			<h3>Seja bem-vindo a sua área no Olhe mais uma vez!</h3>
+			
+			<br/><br/>
+			<div class="pedidos_andamento_principal">
+				<h3>PEDIDOS EM ANDAMENTO</h3>
+				<?php foreach ($this->pedidosAndamento as $key => $value) { ?>
+					<div class="pedido">
+						<h2>COD <?php echo '00'.$value->id ?> - Realizado em <?php echo date('d-m-Y',strtotime($value->data_criacao)); ?> - 
+						<span><?php if($value->status == 'AGP') { echo 'Aguardando pagamento';} ?></span></h2>
+						<h3><a href="#">Realizar pagamento</a></h3>
+					</div>
+				<?php 
+					if(prev($this->pedidosAndamento)){ ?>
+						<hr class="linha_branca" />
+					<? } 
+				
+				} ?>
+				
+			</div>
 		</div>
 	</div>
 </div>

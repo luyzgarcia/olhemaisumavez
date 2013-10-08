@@ -102,8 +102,44 @@ class LojaModelPainelControle extends JModelForm {
 		}
 		
 		echo true;		
-
 		
+	}
+	
+	public function getPedidosAndamento() {
+				
+		$user = JFactory::getUser();
+		
+		if( $user->get('guest') == 1) {
+			//Caso o usuario não esteja logado redireciona para a tela de login
+			$this->setRedirect(JRoute::_('index.php?option=com_users&view=login', false));
+			return;
+		}else {
+			
+			/*
+			$db = JFactory::getDBO();
+			
+				$query = $db->getQuery(true);
+				$query->select('cliente.*');
+				$query->from('#__loja_clientes cliente ');
+				$query->where('cliente.id_joomla = '.$user->id);
+				$db->setQuery((String) $query);
+				$cliente = $db->loadObject();
+				
+				return $cliente;*/
+			$db = JFactory::getDBO();
+			
+			$query = $db->getQuery(true);
+			$query->select('pedido.*');
+			$query->from('#__loja_pedidos pedido');
+			$query->JOIN('INNER', '#__loja_clientes cliente on cliente.id = pedido.id_cliente');
+			$query->where('cliente.id_joomla ='.$user->id);
+			$query->where('pedido.status = \'AGP\'');
+			$db->setQuery((String) $query);
+			$pedidos = $db->loadObjectList();
+			
+			return $pedidos;
+			
+		}
 		
 	}
 

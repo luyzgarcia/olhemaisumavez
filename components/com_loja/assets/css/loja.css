@@ -85,6 +85,9 @@
 .linha_azul {
 	border-top: 1px solid #daebf6;
 }
+.linha_branca {
+	border-top: 1px solid #fff;
+}
 .carrinho_livros {
 	margin-bottom: 50px;
 }
@@ -315,5 +318,38 @@
 }
 .bt_alterar {
 	text-align: right;
+}
+
+.pedidos_andamento_principal {
+	background: #f3f4f4;
+	border: 1px solid #f3f4f4;
+	border-radius: 3px;
+	padding: 15px;
+}
+.pedidos_andamento_principal .linha_branca{
+	margin: 20px -20px;
+}
+.painel_principal .pedidos_andamento_principal h3 {
+	font: normal 12px/24px 'aller_regular', Tahoma;
+	text-transform: uppercase;
+	text-align: left;
+	color: #58595b;
+}
+.painel_principal .pedidos_andamento_principal .pedido h2 {
+	font: normal 18px/24px 'aller_regular', Tahoma;
+	text-transform: uppercase;
+	text-align: left;
+	color: #58595b;
+	display: inline;
+}
+.painel_principal .pedidos_andamento_principal .pedido span {
+	color: #438dbe;
+}
+.painel_principal .pedidos_andamento_principal .pedido h3 {
+	display: inline-table;
+	margin-left: 20px;
+	margin-top: -2px;
+	color: #438dbe;
+	text-decoration: underline;
 }
 /*Fim Painel de controle*/

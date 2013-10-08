@@ -18,6 +18,8 @@ class LojaViewPainelControle extends JViewLegacy {
 		//$this->listalivros		= $this->get('listalivros');
 		$this->prepareDocument();	
 		
+		$this->pedidosAndamento = $this->get('pedidosAndamento');
+		
 		if($this->getLayout() === 'dadosconta') {
 			$this->dadoscliente = $this->get('dadosCliente');
 		}
